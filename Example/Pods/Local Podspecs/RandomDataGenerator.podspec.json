@@ -1,0 +1,28 @@
+{
+  "name": "RandomDataGenerator",
+  "version": "0.1.0",
+  "summary": "RandomDataGenerator is very easy to use and very usefull for Lorem Data",
+  "description": "'A RandomDataGenerator is a library which is basically used to Generate a number of Random Data for UITAbleView and UICollectionView or for normal bunch of Data. Suppose that if you your app is in Developement Phase and You have not yet implemeted any API for your app but still you want to display Random data in your UI so you can use this to generate Random Data.'",
+  "homepage": "https://github.com/kumarlav0/RandomDataGenerator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kumarlav0": "kumarstslav@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kumarlav0/RandomDataGenerator.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://www.instagram.com/kumarstslav",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RandomDataGenerator/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "RandomDataGenerator/Assets/*.png"
+    ]
+  }
+}

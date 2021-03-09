@@ -1,0 +1,6 @@
+framework module RandomDataGenerator {
+  umbrella header "RandomDataGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

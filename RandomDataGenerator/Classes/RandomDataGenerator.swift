@@ -32,9 +32,8 @@ public class DataGenerator{
                 let path = framworkBundle.path(forResource: "Resources", ofType: "bundle")
                 let resourcesBundle = Bundle(url: URL(fileURLWithPath: path!))
                 
-                
+                // Returning UIImage
                 empObj.empImage = UIImage(named: "\(RandomData().getRandomImg(number: Int.random(in: 1...10))).png", in: resourcesBundle, compatibleWith: nil)
-                
                 empObj.empEmail = RandomData().getRandomEmail()
                 empObj.empMobileNumber = RandomData().getRandomMobileNumber()
                 employeeArr.append(empObj)
